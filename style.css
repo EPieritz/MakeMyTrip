@@ -1,0 +1,9 @@
+:root{
+    --site-primary-color: #05539C;
+    --site-secondary-color: #dceeff;
+}
+
+.box-shadow{
+    box-shadow: 0 2px 4px 0 rgba(15, 87, 153, 0.15),
+                0 4px 8px 0 rgba(15, 87, 153, 0.15);
+}
