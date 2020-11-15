@@ -142,7 +142,8 @@
                             data-toggle="tab" href="#nav-card" role="tab" aria-controls="nav-card"
                             aria-selected="true">Credit Card</button>
                         <button type="button" class="btn btn-secondary btn-sm" id="nav-bank-slip-tab" data-toggle="tab"
-                            href="#nav-bank-slip" role="tab" aria-controls="nav-bank-slip" aria-selected="false">Bank Slip</button>
+                            href="#nav-bank-slip" role="tab" aria-controls="nav-bank-slip" aria-selected="false">Bank
+                            Slip</button>
                     </nav>
                     <div class="tab-content" id="paymentFormContent">
                         <div class="tab-pane fade show active" id="nav-card" role="tabpanel"
@@ -150,8 +151,7 @@
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="inputCardName">Name</label>
-                                    <input type="text" class="form-control" id="inputCardName"
-                                        placeholder="Full Name">
+                                    <input type="text" class="form-control" id="inputCardName" placeholder="Full Name">
                                 </div>
                                 <div class="form-group col-md-3 col-6">
                                     <label for="inputMonth">Month</label>
@@ -186,7 +186,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-bank-slip" role="tabpanel" aria-labelledby="nav-bank-slip-tab">
+                        <div class="tab-pane fade" id="nav-bank-slip" role="tabpanel"
+                            aria-labelledby="nav-bank-slip-tab">
                             <p class="lead">Clique em contratar plano que enviaremos um bank-slip para o seu e-mail.</p>
                         </div>
                     </div>
@@ -201,6 +202,33 @@
 
                 <button type="submit" class="btn btn-primary btn-lg">Contract Plan</button>
             </form>
+
+            <div class="col-lg-5 mx-auto order-first order-lg-1 mb-5">
+                <h2 class="h6 text-primary">CHOOSED PLAN</h2>
+                <div class="bg-light rounded p-5 box-shadow">
+                    <h3 class="display-5">Gold</h3>
+                    <ul class="list-plan list-unstyled">
+                        <li>→ 20 days of travel</li>
+                        <li>→ 3 different destinations</li>
+                        <li>→ Everything paid by the company</li>
+                        <li>→ Tickets for parties and events</li>
+                    </ul>
+                    <form action="">
+                        <div class="form-group">
+                            <select class="form-control bg-light" id="formGold">
+                                <option>Select your country</option>
+                                <option>Indonesia</option>
+                                <option>Japan</option>
+                                <option>South Korea</option>
+                                <option>Thailand</option>
+                            </select>
+                        </div>
+                    </form>
+                    <div class="row mt-4 align-items-center">
+                        <div class="col"><h4>$8000</h4></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
