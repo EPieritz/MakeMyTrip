@@ -21,7 +21,7 @@
 
 ## 🚀 How to execute the project
 #### Clone the repository
-git clone https://github.com/EPieritz/MakeMyTrip.git
+git clone https://github.com/ecpieritz/MakeMyTrip.git
 
 #### Enter directory
 `cd MakeMyTrip`
